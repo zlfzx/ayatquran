@@ -8,7 +8,7 @@ if (workbox) {
         {url: '/icon.png', revision: '1'},
         {url: '/manifest.json', revision: '1'},
         {url: '/assets/css/bootstrap.min.css', revision: '1'},
-        {url: '/assets/css/style.css', revision: '1'},
+        {url: '/assets/css/style.css', revision: '2'},
         {url: '/assets/img/quran.svg', revision: '1'},
         {url: '/assets/js/bootstrap.min.js', revision: '1'},
         {url: '/assets/js/jquery-3.3.1.min.js', revision: '1'},
