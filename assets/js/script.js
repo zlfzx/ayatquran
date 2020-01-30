@@ -23,7 +23,7 @@ $('#acak').on('click', (e) => {
         console.log(data.surat)
         let html = `
         <div class="card border-warning mb-3">
-            <div class="card-header font-weight-bold">QS ${data.surat.nama} : ${data.surat.ayat} <button class="close">&times;</button></div>
+            <div class="card-header font-weight-bold">QS ${data.surat.nama} : ${data.surat.ayat}</div>
             <div class="card-body">
                 <h5 class="card-title text-right">${data.acak.ar.teks}</h5>
                 <p class="card-text">"${data.acak.id.teks}"</p>

@@ -7,12 +7,14 @@
     <title>Random Ayat Al-Qur'an</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4659bf"/>
 </head>
 <body style="background-color: #4659bf;">
     <div class="container main d-flex flex-column justify-content-center align-items-center p-5">
         <img src="assets/img/quran.svg" width="150px" alt="">
         <h3 class="text-center text-white">Random Ayat Al-Qur'an</h3>
-        <p class="text-warning text-center">Temukan potongan ayat di Al-Qur'an beserta artinya</p>
+        <p class="text-white text-center">Temukan potongan ayat di Al-Qur'an beserta artinya</p>
 
         <div id="hasil" class="hasil" style="display: none">
             <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
@@ -22,6 +24,12 @@
         
         <button class="btn btn-warning font-weight-bold" id="acak">ACAK</button>
     </div>
+
+    <footer class="footer bg-warning">
+        <div class="container text-center py-1">
+            <a href="https://www.facebook.com/zulfi.izzulhaq" class="text-dark" target="_blank">Muhammad Zulfi</a>
+        </div>
+    </footer>
 
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
