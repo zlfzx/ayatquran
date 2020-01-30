@@ -4,7 +4,7 @@ if (workbox) {
     console.log(`Yay! Workbox is loaded 🎉`);
 
     workbox.precaching.precacheAndRoute([
-        {url: '/index.html', revision: '1'},
+        {url: '/index.html', revision: '2'},
         {url: '/icon.png', revision: '1'},
         {url: '/manifest.json', revision: '1'},
         {url: '/assets/css/bootstrap.min.css', revision: '1'},
